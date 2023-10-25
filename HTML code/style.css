@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(119, 160, 162);
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+section{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+p{
+    position: relative;
+    clear: right;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+div{
+    
+    background-color: rgb(25, 149, 179);
+    position: relative;
+    border: 3.5px solid black ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 100%;
+
+}
+#h2box1{
+    float: right;
+    width: 35%;
+    padding: 5px;
+    margin: -2px -2px ;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+
+}
+#h2box2{
+    float: right;
+    width: 35%;
+    padding: 5px;
+    margin: -2px -2px ;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(0, 0, 0);
+    color:aliceblue;
+
+}
+#h2box3{
+    float: right;
+    width: 35%;
+    padding: 5px;
+    margin: -2px -2px ;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+@media(min-width:992px){
+    .column-lg-4{
+        float: left;
+        width: 33.33%;
+    
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .column-md-6{
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column-md-12{
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:767px){
+    .column-sm-4{
+        float: left;
+        width: 100%;
+        
+    }
+}
